@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ummid Salma Mulla</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #000, #444);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #222;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            overflow: hidden;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .profile-img {
+            flex-shrink: 0;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            background-color: #555;
+            object-fit: cover;
+        }
+        .content {
+            max-width: 700px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #f39c12;
+            animation: slideIn 1.5s ease-in-out;
+        }
+        p {
+            line-height: 1.8;
+            color: #bbb;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: #fff;
+            background: #f39c12;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background 0.3s ease;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+        .btn:hover {
+            background: #d35400;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="ummeed.jpg" alt="Ummid Salma Mulla's Profile Picture" class="profile-img">
+        <div class="content">
+            <h1>About Me</h1>
+            <p>
+                Hi! I'm <strong>Ummid Salma Mulla</strong>, currently pursuing my Bachelor of Engineering in Computer Science at <strong>BVB KLE Technological University</strong>.
+                I am passionate about exploring the endless possibilities of technology and have a special interest in <strong>Data Structures</strong> and <strong>problem-solving</strong>.
+            </p>
+            <p>
+                While I may not find everything intriguing, when I commit to something, I give it my all. I enjoy tackling complex challenges and turning them into rewarding solutions.
+                My journey in CS has been a rollercoaster of learning, implementing, and refining skills, and I thrive on making the most of it!
+            </p>
+            <p>I believe in living a simple, happy life and focusing on the things that truly matter to me. I’m not interested in everything, but when I am, I give it my full effort and stand out.
+I’m hardworking and kind, and I like exploring new things when they catch my interest. I enjoy reading, coding, and playing indoor games in my free time. I’m especially interested in DBMS because it solves real-world problems, like managing large amounts of data, keeping it secure, and making it useful for decision-making. I love learning how databases work and finding ways to make them better and more user-friendly.
+
+            <p>
+
+            </p>
+            <a href="index.html" class="btn">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
